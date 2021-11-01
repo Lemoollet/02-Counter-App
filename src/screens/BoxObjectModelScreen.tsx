@@ -1,6 +1,8 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
+//* el box objext model solo modifica: margin, border, padding y las dimensiones width y height
+
 const BoxObjectModelScreen = () => {
   return (
     <View style={styles.container}>
@@ -14,17 +16,14 @@ export default BoxObjectModelScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'blue',
+    backgroundColor: '#D35E35',
   },
   title: {
     fontSize: 20,
+    borderWidth: 10,
     paddingHorizontal: 100,
-    paddingVertical: 20,
-    marginHorizontal: 20,
-    marginTop: 50,
-    borderWidth: 5,
-    borderColor: 'orange',
-    //width: 250,
-    //backgroundColor: 'red',
+    paddingVertical: 50,
+    marginHorizontal: 10,
+    backgroundColor: 'red',
   },
 });

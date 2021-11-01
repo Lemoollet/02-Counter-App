@@ -1,12 +1,7 @@
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-  Dimensions,
-  Text,
-  useWindowDimensions,
-} from 'react-native';
+import {StyleSheet, View, Text, useWindowDimensions} from 'react-native';
 
+//* Si se quieren las dimensiones reales al voltear la pantalla se tiene que usar el hook
 //const {width, height} = Dimensions.get('window');
 
 const DimensionesScreen = () => {
@@ -40,6 +35,8 @@ const styles = StyleSheet.create({
   },
   cajaNaranja: {
     backgroundColor: '#F19C1B',
+    height: '40%',
+    width: '90%'
   },
   title: {
     fontSize: 30,
